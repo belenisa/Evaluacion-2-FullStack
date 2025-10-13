@@ -1,0 +1,110 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    color: rgb(255, 255, 255) !important;
+    background-position: center;  
+}
+
+.Navbar-Margen.navbar {
+    all: unset; /* elimina todos los estilos de Bootstrap */
+    display: grid !important;
+    grid-template-rows: auto auto;
+    width: auto;
+    background-color: rgb(2, 0, 52) !important;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    gap: 0.5rem;
+    height: 5rem;
+}
+
+.Navbar-Superior {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+.Navbar-Superior > * {
+    flex: 1; /* distribuye espacio */
+}
+
+.Navbar-Inferior {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+.Navbar-Inferior .navbar-collapse {
+    position: absolute;
+    width: 100% !important;
+}
+.Navbar-Inferior .nav {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-evenly !important;
+}
+.Navbar-Inferior .dropdown {
+    flex: 1;
+    text-align: center;
+}
+.Navbar-Inferior .nav-link {
+    flex: 1;
+    text-align: center;
+}
+
+
+.Navbar-Texto{
+    color: rgb(255, 255, 255);
+    font-size: 20px !important;
+}
+.Navbar-Margen .nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+
+.Navbar-Margen .dropdown-item {
+    color: rgb(255, 255, 255) !important;
+}
+.Navbar-Margen .dropdown-item:hover {
+    background-color: rgb(152, 242, 242) !important;
+    color: rgb(2, 0, 52) !important;
+}
+
+
+.dropdown-menu {
+    background-color: rgb(2, 0, 52) !important;
+}
+
+   
+.Perfil{
+    width: auto;
+    height: 3rem;
+    transition: transform 0.6s ease;
+    gap: 10px;
+    border: solid rgb(125, 215, 251) 2px;
+    border-radius: 100%;
+}
+.Perfil:hover{
+    transform: scale(1.5);
+
+}
+
+.redondear{
+    position: fixed;
+    right: 6.5rem;
+    border-radius: 100% !important;
+    border: solid rgb(0, 136, 255) 4px !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    background-color: rgb(52, 199, 253) !important;
+    display: flex !important;
+    align-items: center;
+    font-size: 2.5rem !important;
+    color: rgb(255, 255, 255) !important;
+    z-index: 1000; 
+    top: 80vh;
+}
+.redondear:hover{
+    box-shadow: 0 0 15px 5px rgb(0, 65, 162);
+    
+}

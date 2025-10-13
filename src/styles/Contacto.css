@@ -1,0 +1,15 @@
+.fondoContacto{
+    background-color: rgb(2, 0, 52) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    min-height: 100vh;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    margin-top:0;     
+}
+
+h4{
+    left: 5rem !important;
+}
