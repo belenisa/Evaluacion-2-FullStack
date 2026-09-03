@@ -9,8 +9,9 @@ h1{
     background-size: cover;
     margin-top: 0.5rem;
     background-position: center;
-    width: auto;
-    height: 25rem;
+    width: 100%;
+    height: auto;
+    min-height: 25rem;
     padding: auto;    
 }
 
