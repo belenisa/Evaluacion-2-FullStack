@@ -15,7 +15,7 @@ function ProductCard({ producto }) {
 
 
   return (
-    <Card style={{ width: '25rem', backgroundColor:'rgb(2, 0, 52)', color:'white', border:' solid rgb(125, 215, 251) 3px' }} className="m-2"> 
+    <Card style={{ width: '100%', maxWidth: '25rem', backgroundColor:'rgb(2, 0, 52)', color:'white', border:' solid rgb(125, 215, 251) 3px' }} className="m-2"> 
       <Image src={producto.image} alt={producto.name} className="card-img-top" style={{height: '15rem', width: '100%', objectFit: 'contain'}} />
       <Card.Body>
         <CardBody
