@@ -19,7 +19,7 @@ function Volver(){
 
     return(
         <Container>
-            <Button href="/" className='redondear' onClick={handleClick}>
+            <Button className='redondear' onClick={handleClick}>
                 ↑
             </Button>
         </Container>
